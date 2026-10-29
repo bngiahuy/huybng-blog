@@ -1,0 +1,8 @@
+/* Single entry for the theme stylesheets. postcss-import inlines these into one
+   file, so @apply of classes defined in main.css (e.g. `link`) always resolves. */
+@import "./main.css";
+@import "./markdown.css";
+@import "./expressive-code.css";
+@import "./photoswipe.css";
+@import "./scrollbar.css";
+@import "./transition.css";
